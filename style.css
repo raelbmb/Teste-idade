@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(69, 134, 218);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(26, 26, 26, 0.575) 2px 2px 8px;
+}
+
+div#interface{
+    border: solid black 3px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    width: 550px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: black 4px 4px 10px;
+
+}
+
+img#foto{
+    border: dashed 3px rgb(182, 182, 182);
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+footer{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: rgb(58, 57, 57) 2px 2px 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 39, 146);
+}
+
+
+input#botao{
+    background-color: rgb(68, 68, 68);
+    color: rgb(62, 192, 138);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    padding: 3px;
+}
+
+input#botao:hover{
+    background-color: black;
+    color: rgb(63, 255, 175);
+    text-shadow: 7px 7px 15px rgb(63, 255, 175);
+    border: solid 2px rgb(63, 255, 175);
+    box-shadow: rgb(63, 255, 175) 3px 3px 15px, inset rgb(63, 255, 175) 3px 3px 15px;
+    
+}
